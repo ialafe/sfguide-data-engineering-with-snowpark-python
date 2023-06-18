@@ -13,6 +13,7 @@ import sys
 from scipy.constants import convert_temperature
 
 def main(temp_f: float) -> float:
+    """CONVERTS FAHREINT TO CELSIUS"""
     return convert_temperature(float(temp_f), 'F', 'C')
 
 
